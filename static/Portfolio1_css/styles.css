@@ -68,7 +68,7 @@ b.max-bold{ font-weight: 700; }
 
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
 
-.font-yellow{ color: rgb(0, 153, 204); }
+.font-yellow{ color: rgb(204, 0, 0); }
 
 .font-semi-white{ color: #ddd; }
 
@@ -84,7 +84,7 @@ header{ position: absolute; top: 30px; left: 0; right: 0; z-index: 100; }
 header .heading-wrapper{ 
 	border-radius: 5px; 
 	padding: 30px 40px 20px; 
-	background: rgb(0, 153, 204); 
+	background: rgb(3, 204, 0); 
 	color: #fff; 
 }
 
@@ -95,7 +95,7 @@ header .info .icon{ float: left; font-size: 30px; }
 header .info .right-area{ margin-left: 45px; }
 
 header .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
-	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: rgb(0, 153, 204); color: #fff; 
+	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: rgb(201, 111, 32); color: #fff; 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }

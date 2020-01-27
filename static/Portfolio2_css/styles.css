@@ -91,7 +91,7 @@ b.max-bold{ font-weight: 700; }
 .section .heading{ margin-bottom: 60px; display: inline-block; }
 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin: 0 auto 20px; display: block; background: rgb(0, 153, 204); }
+	margin: 0 auto 20px; display: block; background: rgb(221, 229, 231); }
 	
 .margin-t-10{ margin-top: 10px; }
 .margin-t-30{ margin-top: 30px; }
@@ -103,11 +103,11 @@ b.max-bold{ font-weight: 700; }
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
 .margin-tb-50{ margin-top: 50px; margin-bottom: 50px; }
 
-.font-yellow{ color: rgb(0, 153, 204); }
+.font-yellow{ color: rgba(230, 193, 7, 0.605); }
 
-.font-semi-white{ color: #ddd; }
+.font-semi-white{ color: rgb(225, 208, 208); }
 
-.font-lite-black{ color: #999; }
+.font-lite-black{ color: rgba(201, 193, 193, 0.646); }
 
 .center-text{ text-align: center; }
 
@@ -118,16 +118,16 @@ b.max-bold{ font-weight: 700; }
 --------------------------------- */
 
 .intro-section{ padding: 50px 0; position: relative; background-size: cover; 
-	z-index: 1;background-image: url(../../static/images/slider-3-1920x1080.jpg); }
+	z-index: 1;background-image: url('../../static/images/images.yacine.jpeg'); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0,0,0, .2); }
+	right: 0; background: rgba(54, 3, 70, 0.598); }
 
 	
 /* HEADER */
 
 .intro-section .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; margin-bottom: 50px;
-	background: rgb(0, 153, 204); color: #fff; }
+	background: rgba(225, 182, 8, 0.509); color: rgb(240, 239, 239); }
 
 .intro-section .info{ margin-bottom: 10px; }
 
@@ -138,9 +138,9 @@ b.max-bold{ font-weight: 700; }
 
 /* INTRO */
 
-.intro{ color: #fff; }
+.intro{ color: rgb(255, 255, 255); }
 
-.intro .profile-img{ max-width: 400px; border-radius: 5px; overflow: hidden; }
+.intro .profile-img{ max-width: 400px; border-radius: 150px; overflow: hidden; }
 
 .intro .information > li{ display: block; margin: 5px 0; }
 
@@ -149,7 +149,7 @@ b.max-bold{ font-weight: 700; }
 	background: #887392; color: #fff; }
 
 .intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	top: 0; z-index: -1; border-radius: 20px; background: rgb(0, 153, 204); 
+	top: 0; z-index: -1; border-radius: 20px; background: rgb(0, 204, 68); 
 	-webkit-transition: all .2s ease; transition: all .2s ease;
 	-webkit-transform: scale(0); transform: scale(0); }
 
@@ -157,7 +157,7 @@ b.max-bold{ font-weight: 700; }
 
 
 .intro .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
-	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: rgb(0, 153, 204); color: #fff; 
+	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: rgba(142, 137, 2, 0.461); color: #fff; 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 .intro .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
@@ -166,12 +166,13 @@ b.max-bold{ font-weight: 700; }
 /* ---------------------------------
 4. ABOUT SECTION
 --------------------------------- */
+.about-section{ background-color: rgb(252, 252, 252);}
 
 /* COUNTER SECTION */
 
 .counter{ position: relative; }
 	
-.counter .title{ color: rgb(0, 153, 204); text-align: right; margin-right: 130px; }
+.counter .title{ color: rgb(86, 91, 0); text-align: right; margin-right: 130px; }
 
 .counter .desc{ position: absolute; bottom: 4px; right: 0px; width: 110px; }
 
@@ -181,7 +182,7 @@ b.max-bold{ font-weight: 700; }
 5. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: #FAF5FC; }
+.experience-section{ background: rgba(70, 5, 103, 0.831); }
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; }
 
@@ -216,10 +217,12 @@ b.max-bold{ font-weight: 700; }
 7. EDUCATION SECTION
 --------------------------------- */
 
+.education-section{background: rgba(213, 154, 5, 0.448);}
+
 .education-wrapper{ position: relative; overflow: hidden; text-align: center; }
 
 .education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: 50%;
-	margin-left: -1px; width: 2px; background: #333; }
+	margin-left: -1px; width: 2px; background: rgba(213, 154, 5, 0.448); }
 
 .education-wrapper .education{ width: 50%; clear: both; position: relative; margin-top: -30px; }
 
@@ -295,5 +298,5 @@ b.max-bold{ font-weight: 700; }
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+.copyright{ text-align: center; padding: 30px 0; background: rgba(21, 92, 179, 0.804); }
 
