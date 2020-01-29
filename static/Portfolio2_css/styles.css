@@ -136,7 +136,7 @@ b.max-bold{ font-weight: 700; }
 
 .intro{ color: rgb(255, 255, 255); }
 
-.intro .profile-img{ max-width: 400px; border-radius: 150px; overflow: hidden; }
+.intro .profile-img{ max-width: 150px; border-radius: 150px; overflow: hidden; }
 
 .intro .information > li{ display: block; margin: 5px 0; }
 
