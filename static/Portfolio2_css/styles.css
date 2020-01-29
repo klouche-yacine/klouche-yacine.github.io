@@ -86,7 +86,7 @@ b.max-bold{ font-weight: 700; }
 2. COMMONS FOR PAGE DESIGN
 --------------------------------- */
 
-.section{ padding: 100px 0 50px; border-bottom: 1px solid #ddd; }
+.section{ padding: 100px 0 50px; border-bottom: transparent; }
 
 .section .heading{ margin-bottom: 60px; display: inline-block; }
 
@@ -136,7 +136,7 @@ b.max-bold{ font-weight: 700; }
 
 .intro{ color: rgb(255, 255, 255); }
 
-.intro .profile-img{ max-width: 150px; border-radius: 150px; overflow: hidden; }
+.intro .profile-img{ max-width: 200px; border-radius: 200px; overflow: hidden; height:200px ; }
 
 .intro .information > li{ display: block; margin: 5px 0; }
 
@@ -145,7 +145,7 @@ b.max-bold{ font-weight: 700; }
 	background: #887392; color: #fff; }
 
 .intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	top: 0; z-index: -1; border-radius: 20px; background: rgb(0, 204, 68); 
+	top: 0; z-index: -1; border-radius: 20px; background: rgb(255, 22, 22); 
 	-webkit-transition: all .2s ease; transition: all .2s ease;
 	-webkit-transform: scale(0); transform: scale(0); }
 
@@ -153,7 +153,7 @@ b.max-bold{ font-weight: 700; }
 
 
 .intro .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
-	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: rgba(42, 42, 28, 0.178); color: rgb(255, 255, 255); 
+	box-shadow: inset 0 0px 4px rgba(228, 227, 227, 0.633); background: rgba(42, 42, 28, 0.178); color: rgb(255, 255, 255); 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 .intro .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
@@ -162,7 +162,8 @@ b.max-bold{ font-weight: 700; }
 /* ---------------------------------
 4. ABOUT SECTION
 --------------------------------- */
-.about-section{ background-color: rgb(252, 252, 252);}
+.about-section{ background-color: rgb(252, 252, 252);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%)}
 
 /* COUNTER SECTION */
 
@@ -178,7 +179,8 @@ b.max-bold{ font-weight: 700; }
 5. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: rgba(147, 69, 186, 0.934); }
+.experience-section{ background: rgba(147, 69, 186, 0.934);
+	background: linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(236,186,186,1) 85%);}
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; }
 
@@ -193,7 +195,9 @@ b.max-bold{ font-weight: 700; }
 6. PORFOLIO SECTION
 --------------------------------- */
 
-.portfolio-section{ position: relative; }
+.portfolio-section{ position: relative;
+	background: linear-gradient(180deg, rgba(255,255,255,1) 49%, rgba(236,232,232,0.6362920168067228) 100%);
+ }
 
 .portfolio-section .portfolioFilter{ margin-bottom: 60px; color: #666; }
 
@@ -213,7 +217,7 @@ b.max-bold{ font-weight: 700; }
 7. EDUCATION SECTION
 --------------------------------- */
 
-.education-section{background: rgba(158, 45, 11, 0.616);}
+.education-section{background: linear-gradient(180deg, rgba(236,232,232,0.87718837535014) 34%, rgba(181,174,174,0.3169642857142857) 100%);}
 
 .education-wrapper{ position: relative; overflow: hidden; text-align: center; }
 
@@ -245,7 +249,7 @@ b.max-bold{ font-weight: 700; }
 	z-index: 1; background-image: url(../../images/slider-4-1920x600.jpg); color: #fff; }
 
 .quoto-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0,0,0, .8); }
+	right: 0; background: linear-gradient(180deg, rgba(93,89,89,0.7245273109243697) 16%, rgba(29,28,28,0.8337710084033614) 90%); }
 	
 .quoto-section .icon{ margin-bottom: 20px; height: 40px; width: 40px; line-height: 40px; 
 	border-radius: 30px; background: rgb(0, 153, 204); color: #fff; }
@@ -257,7 +261,8 @@ b.max-bold{ font-weight: 700; }
 --------------------------------- */
 
 .skills-section .expert{ margin-top: 10px; display: inline-block; padding: 1px 25px 0; 
-	border-radius: 5px; background: rgb(0, 153, 204); color: #fff; }
+	border-radius: 5px; }
+	.skill-section .exeprt{background: linear-gradient(180deg, rgba(157,153,153,0.8407738095238095) 32%, rgba(140,135,135,0.6180847338935574) 96%);}
 
 	
 /* LINE PROGRESSBAR */
@@ -276,7 +281,7 @@ b.max-bold{ font-weight: 700; }
 	z-index: 1; background-image: url(../../images/slider-4-1920x600.jpg); color: #fff; }
 
 .radial-progress-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; 
-	left: 0; right: 0; background: rgba(124, 102, 2, 0.787); }
+	left: 0; right: 0; background: linear-gradient(180deg, rgba(255,252,252,0.9514180672268907) 4%, rgba(93,89,89,0.6180847338935574) 96%);; }
 	
 .radial-progress{ position: relative; max-width: 170px; margin: 0 auto; }
 
