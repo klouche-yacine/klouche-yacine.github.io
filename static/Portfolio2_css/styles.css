@@ -123,7 +123,7 @@ b.max-bold{ font-weight: 700; }
 	
 /* HEADER */
 
-.intro-section .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; margin-bottom: 50px;
+.intro-section .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px;  -bottom: 50px;
 	background: rgba(51, 50, 93, 0.712); color: rgb(240, 239, 239); }
 
 .intro-section .info{ margin-bottom: 10px; }
@@ -178,7 +178,7 @@ b.max-bold{ font-weight: 700; }
 5. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: rgba(70, 5, 103, 0.831); }
+.experience-section{ background: rgba(147, 69, 186, 0.934); }
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; }
 
@@ -287,7 +287,6 @@ b.max-bold{ font-weight: 700; }
 
 .radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
 	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #fff; }
-
 
 
 /* ---------------------------------
